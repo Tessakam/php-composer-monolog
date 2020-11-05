@@ -7,10 +7,10 @@
 - Team challenge : `solo`
 
 ## Learning objectives
-- To be able to manage packages with composer
-- Understand what composer does for you
-- Work with monolog
-- Get used to work with different handlers
+-[x] To be able to manage packages with composer
+-[x] Understand what composer does for you
+-[x] Work with monolog
+-[x] Get used to work with different handlers
 
 ## The Mission
 We will use our first external PHP dependency today!
@@ -29,6 +29,7 @@ Write each color of buttons to a different file:
 - warning: warning.log 
 - danger: warning.log and email these messages using `NativeMailerHandler`
 - dark: emergency.log and email these messages using `NativeMailerHandler`
+Correction! NativeMailer + message in browser is NOT necessary
 
 **You do not need to use an if to get the messages written in different files**
 
